@@ -20,8 +20,6 @@ import FloatingCTAs from './components/FloatingCTAs';
 import Button from './components/Button';
 import { SERVICES, PROCESS_STEPS, TESTIMONIALS, CONTACT_LINKS } from './constants';
 
-const GEMINI_API_KEY = import.meta.env.GEMINI_API_KEY;
-
 
 // Component for randomized floating symbols in the background
 const FloatingBackgroundSymbols = () => {
@@ -185,7 +183,7 @@ const App: React.FC = () => {
               {[
                 { label: 'Ad Spend Managed', value: '$1M+' },
                 { label: 'Average ROAS', value: '3.8x' },
-                { label: 'Projects Completed', value: '1500+' },
+                { label: 'Happy Clients', value: '1500+' },
                 { label: 'Client Satisfaction', value: '100%' },
               ].map((stat, i) => (
                 <div key={i} className="glass p-4 rounded-2xl border border-slate-200 dark:border-white/5">
