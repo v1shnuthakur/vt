@@ -20,6 +20,8 @@ import FloatingCTAs from './components/FloatingCTAs';
 import Button from './components/Button';
 import { SERVICES, PROCESS_STEPS, TESTIMONIALS, CONTACT_LINKS } from './constants';
 
+const GEMINI_API_KEY = import.meta.env.GEMINI_API_KEY;
+
 
 // Component for randomized floating symbols in the background
 const FloatingBackgroundSymbols = () => {
